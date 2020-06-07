@@ -203,7 +203,7 @@ def user_stats(df):
         #counting the number of users with unknown gender
         unknown_gender = df['Gender'].isnull().sum()
         #filling empty gender information with the string unknown
-        df['Gender'] = df['Gender'].fillna('Unknown')
+        df['Gender'] = df['Gender'].fillna('unknown')
         #counting the unique number of genders in the dataframe
         gender_count = df['Gender'].nunique()
         print("There are ", gender_count, " different gender for your selection of city, date and day. \nBut there are also ", unknown_gender, " users who we do not know the gender for.")
