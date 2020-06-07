@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+2020.06.06
 
 ### Project Title
-Replace the Project Title
+Udacity Bike-share project from Patrick Deege
 
 ### Description
-Describe what your project is about and what it does
+This project enables users to analyse bike-share data from three different US cities.
 
 ### Files used
-Include the files used
+* CSV files
+  * chicago.csv
+  * washington.csv
+  * new_york_city.csv
+* bikeshare.py
+* README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+I've found some interesting discussions in the Udacity knowledge base and did some research on stackoverflow for certain code snippets around raw user input.
