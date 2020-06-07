@@ -6,6 +6,7 @@ Udacity Bike-share project from Patrick Deege
 
 ### Description
 This project enables users to analyse bike-share data from three different US cities.
+The code returns some analysis, taking the users input into account, and also allows to see some raw data of the bike-share data. 
 
 ### Files used
 * CSV files
